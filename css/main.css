@@ -1,0 +1,83 @@
+/* stylesheet for Rogue Pickings */
+
+/*  -------- Color Pallette ------------
+
+#83AB74: light green | used for paragraphs, brand name, and nav
+#424242: dark gray | used for most paragraphs and brand name
+
+*/
+
+/* -------- Fonts ---------------------
+
+Montserrat:  sans-serif font | used for brand name, headings, paragraphs, and nav
+Wisdom Script: script font | used for text emphasis
+
+*/
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-Regular.eot');
+	src: url('Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+		url('Montserrat-Regular.woff2') format('woff2'),
+		url('Montserrat-Regular.woff') format('woff'),
+		url('Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-Bold.eot');
+	src: url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+		url('Montserrat-Bold.woff2') format('woff2'),
+		url('Montserrat-Bold.woff') format('woff'),
+		url('Montserrat-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Thirsty Script Extrabold Demo';
+	src: url('ThirstyScriptExtraboldDemo.eot');
+	src: url('ThirstyScriptExtraboldDemo.eot?#iefix') format('embedded-opentype'),
+		url('ThirstyScriptExtraboldDemo.woff2') format('woff2'),
+		url('ThirstyScriptExtraboldDemo.woff') format('woff'),
+		url('ThirstyScriptExtraboldDemo.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+/*---------- Table of Contents----------
+
+- Base Styles
+- Grid
+- Sections
+    - Header
+    -
+    -
+    - Footer
+
+*/
+
+
+/***** BASE STYLES *****/
+
+
+
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto; /* vert - horiz */
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}

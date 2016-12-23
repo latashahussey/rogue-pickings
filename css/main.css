@@ -3,7 +3,8 @@
 /*  -------- Color Pallette ------------
 
 #83AB74: light green | used for paragraphs, brand name, and nav
-#424242: dark gray | used for most paragraphs and brand name
+#4D5359: dark gray | used for most paragraphs and brand name
+#CCCCCC: light gray | used for paragraph borders
 
 */
 
@@ -32,25 +33,25 @@ Oleo Script: script font | used for text emphasis
 
 /***** BASE STYLES *****/
 body {
+    color: #4D5359;
     font-family: 'Montserrat', sans-serif;
 }
-
 
 
 /***** GRID *****/
 
 .full-width {
-    width: 1245px;
+    width: 1290px;
     margin: 0 auto; /* vert - horiz */
 }
 
 .half-width {
-    width: 622.5px;
+    width: 645px;
     float: left;
 }
 
 .third-width {
-    width: 415px;
+    width: 430px;
     float: left;
 }
 
@@ -73,7 +74,7 @@ h1  {
 }
 
 #brand-first-word {
-	color: #424242;
+	color: #4D5359;
 }
 
 #brand-second-word {
@@ -95,7 +96,7 @@ nav ul li{
 }
 nav ul li a {
 		color: #83AB74;
-		font-size: 14px;
+		font-size: 15px;
 		padding-left: 20px;
 		text-decoration: none;
     text-transform: uppercase;
@@ -104,25 +105,72 @@ nav ul li a {
 /* Welcome */
 
 #welcome {
+	border-bottom: 0.5px solid #CCC;
 	height: 180px;
+  padding: 30px;
 }
 
+#welcome h2 {
+	color: #83AB74;
+	text-transform: uppercase;
+}
+
+#welcome p,
+#reviews p,
+#contact p {
+	font-size: 18px;
+}
 
 /* Specials */
+
+#specials {
+	padding: 30px 0px 30px 30px;
+}
+
+#specials ul {
+  padding-left: 0;
+}
+
+#specials ul li {
+	color: #83AB74;
+  font-size: 18px;
+	list-style: none;
+  padding-bottom: 15px;
+}
+
 #specials,
 #reviews,
 #contact {
+  border-bottom: 0.5px solid #CCC;
 	height: 215px;
 }
 
+#specials,
+#reviews {
+	border-right: 0.5px solid #CCC;
+}
+
+#specials h3,
+#reviews h3,
+#contact h3 {
+	color: #83AB74;
+	text-transform: uppercase;
+}
 
 /* Reviews */
+#reviews
+{
+	padding: 30px;
+}
 
 
 
 
 /* Contact */
 
+#contact {
+	padding: 30px 0 30px 30px;
+}
 
 /* Footer */
 footer {

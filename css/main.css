@@ -7,44 +7,13 @@
 
 */
 
-/* -------- Fonts ---------------------
+/* -------- Google Fonts ---------------------
 
 Montserrat:  sans-serif font | used for brand name, headings, paragraphs, and nav
-Wisdom Script: script font | used for text emphasis
+Oleo Script: script font | used for text emphasis
 
 */
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Regular.eot');
-	src: url('Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
-		url('Montserrat-Regular.woff2') format('woff2'),
-		url('Montserrat-Regular.woff') format('woff'),
-		url('Montserrat-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Bold.eot');
-	src: url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
-		url('Montserrat-Bold.woff2') format('woff2'),
-		url('Montserrat-Bold.woff') format('woff'),
-		url('Montserrat-Bold.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Thirsty Script Extrabold Demo';
-	src: url('ThirstyScriptExtraboldDemo.eot');
-	src: url('ThirstyScriptExtraboldDemo.eot?#iefix') format('embedded-opentype'),
-		url('ThirstyScriptExtraboldDemo.woff2') format('woff2'),
-		url('ThirstyScriptExtraboldDemo.woff') format('woff'),
-		url('ThirstyScriptExtraboldDemo.ttf') format('truetype');
-	font-weight: 800;
-	font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script');
 
 /*---------- Table of Contents----------
 
@@ -52,8 +21,10 @@ Wisdom Script: script font | used for text emphasis
 - Grid
 - Sections
     - Header
-    -
-    -
+    - Welcome
+		- Specials
+    - Reviews
+		- Contact
     - Footer
 
 */
@@ -89,7 +60,7 @@ body {
 /* Header */
 
 header {
-	background: url('../img/hero-image.jpeg');
+	background: url('../img/hero-image.jpg');
 	background-position: top;
 	background-size: cover;
 	height: 450px;
@@ -128,4 +99,49 @@ nav ul li a {
 		padding-left: 20px;
 		text-decoration: none;
     text-transform: uppercase;
+}
+
+/* Welcome */
+
+#welcome {
+	height: 180px;
+}
+
+
+/* Specials */
+#specials,
+#reviews,
+#contact {
+	height: 215px;
+}
+
+
+/* Reviews */
+
+
+
+
+/* Contact */
+
+
+/* Footer */
+footer {
+	clear: both;
+	padding: 50px 25px;
+	text-align: center;
+}
+
+footer p {
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+footer span {
+	color: #83AB74;
+	font-family: 'Oleo Script';
+	font-size: 26px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
 }

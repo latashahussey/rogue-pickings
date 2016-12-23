@@ -60,24 +60,72 @@ Wisdom Script: script font | used for text emphasis
 
 
 /***** BASE STYLES *****/
-
-
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 
 /***** GRID *****/
 
 .full-width {
-    width: 1200px;
+    width: 1245px;
     margin: 0 auto; /* vert - horiz */
 }
 
 .half-width {
-    width: 600px;
+    width: 622.5px;
     float: left;
 }
 
 .third-width {
-    width: 400px;
+    width: 415px;
     float: left;
+}
+
+/***** SECTIONS *****/
+
+
+/* Header */
+
+header {
+	background: url('../img/hero-image.jpeg');
+	background-position: top;
+	background-size: cover;
+	height: 450px;
+}
+
+h1  {
+	font-weight: bold;
+	padding-top: 45px;
+	text-transform: uppercase;
+}
+
+#brand-first-word {
+	color: #424242;
+}
+
+#brand-second-word {
+	color: #83AB74;
+}
+
+#nav-bar {
+	background-color: #FFFFFF;
+	height: 150px;
+  padding-left: 115px;
+  width: 100%;
+}
+nav {
+    float: right;
+		padding: 50px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+		color: #83AB74;
+		font-size: 14px;
+		padding-left: 20px;
+		text-decoration: none;
+    text-transform: uppercase;
 }
